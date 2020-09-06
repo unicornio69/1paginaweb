@@ -14,12 +14,13 @@ h2 {
     
 }
 
-header,section,footer,aside,nav,article {
+header,section,footer,aside,nav,article,hgroup{
     display:block
 }    
 
 body {
-    text-align: center
+    text-align: center;
+    background:grey
 }
 .agrupar {
     width: 960px;
@@ -62,8 +63,9 @@ body {
 
  }
  time {color:rgb(47, 94, 38)}
+
  article footer{
-     text-align:left ;
+     text-align:right ;
      margin-top: 20px ;
 
  }
@@ -74,13 +76,23 @@ body {
      margin: 20px 0;
      
  }
+ .columna blockquote{
+     border:1px solid rgb(47, 94, 38);
+     padding:40px;
+     background:greenyellow;
+     margin-bottom:20px;
+
+ }
  .pie {
      clear: both;
+     padding:20px;
+     background:rgb(47, 94, 38);
+     color:#ffffff;
 
  }
  
  img {
      width:120px;
      display:block;
-     margin: 20px;
+     margin:20px auto;
  }
