@@ -96,3 +96,15 @@ body {
      display:block;
      margin:20px auto;
  }
+ table{border-collapse:separate;
+
+ }
+ .blanco{ background:white}
+ .amarillo{background:yellow}
+ .rosa{
+     background:pink;
+ }
+ .naranja{
+     background:orange
+ }
+
